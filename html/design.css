@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #dce4ee;
+    color: #64717E;
+}
+#header{
+    height: 25vh;
+    position: relative;
+    line-height: 40px;
+}
+#title {
+    position: absolute;
+    font-size: 35px;
+    font-weight: bold;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#content {
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    height: 60%;
+}
+.long_button {
+    height: 80%;
+}
+
+.etc_button {
+    height: 25vh;
+}
+
+button {
+    margin: 20px auto 20px auto;
+    color: #64717E;
+    font-size: 22px;
+    font-weight: bold;
+    width: 250px;
+    height: 80px;
+    border: 0px;
+    border-radius: 15px;
+    background: #dce4ee;
+    box-shadow: 12px 12px 24px #cad2db,
+    -12px -12px 24px #eef6ff;
+}
+
+#single:active {
+    box-shadow: inset 12px 12px 24px #cad2db,
+    inset -12px -12px 24px #eef6ff;
+}
+
+p {
+    text-align: center;
+}
+
+#hard {
+    color: #A60C21;
+}
+
+#extreme {
+    color: #4D0F78;
+}
+
+#small_button {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 44%;
+    left: 19%;
+    margin: 30px auto 30px auto;
+    font-size: 10px;
+    font-weight: bold;
+    color: #64717E;
+    text-transform: uppercase;
+    width: 50px;
+    height: 50px;
+}
+
+#profile {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 42%;
+    left: 77%;
+    margin: 30px auto 30px auto;
+    font-size: 10px;
+    font-weight: bold;
+    color: #64717E;
+    text-transform: uppercase;
+    width: 50px;
+    height: 50px;
+    border: 0px;
+    border-radius: 15px;
+    box-shadow: 12px 12px 24px #cad2db,
+    -12px -12px 24px #eef6ff;
+}
+
+#now_mode {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 22px;
+    top: 40%;
+    left: 50%;
+}
+
+#now_level {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 32px;
+    top: 46%;
+    left: 50%;
+}
+
+#random {
+    top: 90%;
+}
+
+/*#ranking {*/
+/*    font-size: 40px;*/
+/*    position: absolute;*/
+/*    transform: translate(-50%, -50%);*/
+/*    height: 80px;*/
+/*    top: 70%;*/
+/*    width: 100px;*/
+/*    left: 20%;*/
+/*}*/
+
+/*#setting {*/
+/*    font-size: 40px;*/
+/*    position: absolute;*/
+/*    transform: translate(-50%, -50%);*/
+/*    height: 80px;*/
+/*    width: 100px;*/
+/*    top: 70%;*/
+/*    right: -20%;*/
+/*}*/
